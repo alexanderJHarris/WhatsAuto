@@ -105,5 +105,6 @@ def main():
                 msg_box.send_keys(Keys.ENTER)
         counter = counter + 1
 
+
 if __name__ == "__main__":
     main()
