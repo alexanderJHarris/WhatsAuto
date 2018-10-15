@@ -35,7 +35,7 @@ def send_to_whatsapp(file_name, starting_url="https://web.whatsapp.com/"):
                 search_bar_container_id.send_keys(Keys.ENTER)
 
                 driver.find_element_by_xpath('//*[@id="main"]/header/div[3]/div/div[2]/div/span').click()
-                driver.find_element_by_xpath('/html/body/div/div/div/div[4]/div/header/div[3]/div/div[2]/span/div/div/ul/li[1]/buttoni').click()
+                driver.find_element_by_xpath('/html/body/div/div/div/div[4]/div/header/div[3]/div/div[2]/span/div/div/ul/li[1]/button').click()
 
 
 
